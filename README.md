@@ -1,9 +1,14 @@
 # Interview Assignment
 
+## Project structure
+
+The main CLI interface is in `ConsoleInterface`. The `LibraryService` project provides the business logic and the `DataAccess` project provides data access through the repository pattern.
+
+Unit tests are projects sit alongside the projects they are testing.
+
 ## Run application
 
-Install dotnet version 8.0.303
-Go to the directionry ConsoleInterface and run the command `dotnet build` and then `dotnet run`
+Install dotnet version 8.0.303. Change directory to ConsoleInterface and run the command `dotnet build` and then `dotnet run`
 
 ## Use application
 
